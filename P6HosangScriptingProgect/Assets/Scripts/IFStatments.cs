@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IFStatments : MonoBehaviour
 {
-    float coffeTempertaure = 100f;
+    float coffeeTemperture = 100f;
     float hotLimitTemperature = 75;
     float coldLimitTempature = 40;
 
@@ -19,26 +19,27 @@ public class IFStatments : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-            {
+        {
             TemperatureTest();
 
 
         }
-        coffeTempertaure -= Time.deltaTime * 1f;
+        coffeeTemperture -= Time.deltaTime * 1f;
 
     }
     void TemperatureTest()
     {
-        if (coffeeTemperature > hotLimitTemperature)
+        if (coffeeTemperture > hotLimitTemperature)
 
 
         {
             print("Coffee is too hot.");
         }
     }
-   }
-{ 
-    //test
+
+
+
+
 }
 
 
