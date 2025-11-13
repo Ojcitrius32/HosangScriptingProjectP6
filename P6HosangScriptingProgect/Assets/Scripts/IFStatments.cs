@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class IFStatments : MonoBehaviour
 {
-    float coffeeTemperture = 100f;
-    float hotLimitTemperature = 75;
-    float coldLimitTempature = 40;
+    float coffeeTemperture = 70f;
+    float hotLimitTemperature = 50;
+    float coldLimitTempature = 30;
 
 
     // Start is called before the first frame update
@@ -34,6 +34,16 @@ public class IFStatments : MonoBehaviour
 
         {
             print("Coffee is too hot.");
+        }
+        else if (coffeeTemperture < coldLimitTempature)
+        {
+            print("coffeeTemperture is too cold.");
+        }
+      
+            else
+        
+        {
+            print("Coffee is just right.");
         }
     }
 
