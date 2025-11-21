@@ -131,6 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 180573850}
+  - component: {fileID: 180573851}
   m_Layer: 0
   m_Name: ForEachLoop
   m_TagString: Untagged
@@ -153,6 +154,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 348537032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &180573851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180573849}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349da1e3e6ab0864798bddd2a22bf609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &247841894
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +297,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252608300}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ba408cd90209bf46921cad748dac9ca, type: 3}
   m_Name: 
@@ -333,6 +346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 448683321}
+  - component: {fileID: 448683322}
   m_Layer: 0
   m_Name: DoWhileLoops
   m_TagString: Untagged
@@ -355,6 +369,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 348537032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &448683322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448683320}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4905dce4bf90a174689e8ba70be28458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &694736498
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +420,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694736498}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9106d9c2712538743ac67e429bb820f6, type: 3}
   m_Name: 

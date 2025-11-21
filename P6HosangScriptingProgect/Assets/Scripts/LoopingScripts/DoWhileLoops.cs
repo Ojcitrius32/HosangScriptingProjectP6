@@ -8,6 +8,11 @@ public class DoWhileLoops : MonoBehaviour
     void Start()
     {
         bool shouldContinue = false;
+
+        do
+        {
+            print("My fellow americans");
+        } while (shouldContinue == true);
     }
 
     // Update is called once per frame
